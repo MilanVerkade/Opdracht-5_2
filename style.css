@@ -1,0 +1,153 @@
+html{
+    font-family: ftltlt;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+body{
+    height: 100%;
+    background-color: #f5f7fa;
+}
+
+header{
+    background-color: #7272DD;
+    color: white;
+    height: 50px;
+    overflow: visible;
+}
+
+li{
+    display: inline-block;
+}
+
+.hero1{
+    background-color: black;
+    color: white;
+    width: 97%;
+    padding-left: 3%;
+    margin: 0;
+    padding-top: 25px;
+
+}
+
+.halloh1{
+    height: 50px;
+    
+    margin-bottom: 40px;
+    font-size: 60px
+}
+
+
+.MobielenTV{
+    background-color: #f5f7fa;
+    color: black;
+    margin-top: 50px;
+    margin-left: 0%;
+    padding-left: 3%;
+    padding-top: 20px;
+    padding-bottom: 12%;
+    background-image: url(img/image-main-01.png);
+    background-size: 260px;
+    background-position: 70vh 15%;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-image: url(img/googleplay.png), url(img/appleappstore.png);
+    background-repeat: no-repeat, no-repeat;
+    background-color: #7272DD;
+    background-position: 75% center, 88% center;
+    background-size: 170px, 140px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-decoration: none;
+    height: 80px
+    
+}
+
+a{
+    color: white;
+}
+
+.Main{
+     background-color: black;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+}
+
+
+.Button{
+    margin-top: 1%;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+#Bekijkdeal{
+    background-color: black;
+    color: white;
+}
+
+#Ontdekmeer{
+    background-color: #9000ff;
+    color: white;
+}
+
+.bf{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+@font-face {
+        font-family: ftltlt;
+        src: url(fonts/ftltlt-webfont.woff2);
+    }
+
+
+nav{
+   overflow: visible;
+   text-align: left;
+   text-decoration: none;
+   font-size: 30px;
+   text-indent: 70px;
+}
+
+
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+
+    background-color: #7272DD;
+    border-radius: 0px 0px 40px 0px;
+    
+}
+
+.dropdown-menu a {
+    padding: 8px 16px;
+    display: block;
+    text-indent: 0;
+    font-size: 16px;
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-left: 55px;
+}
+
+.dropdown-menu a:hover {
+    color: black;
+    
+}
+
