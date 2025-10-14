@@ -115,11 +115,11 @@ a{
 
 
 nav{
-   overflow: visible;
    text-align: left;
    text-decoration: none;
    font-size: 30px;
    text-indent: 70px;
+   display: flex;
 }
 
 
@@ -130,24 +130,22 @@ nav{
 
     background-color: #7272DD;
     border-radius: 0px 0px 40px 0px;
-    
-}
-
-.dropdown-menu a {
     padding: 8px 16px;
-    display: block;
+    display: flex;
     text-indent: 0;
     font-size: 16px;
     color: white;
+    
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
+    display: flex;
     margin-left: 55px;
 }
 
-.dropdown-menu a:hover {
+.dropdown-menu a:hover{
     color: black;
-    
+    display: flex;
 }
+
 
