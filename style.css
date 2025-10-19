@@ -18,6 +18,9 @@ header{
     background-color: #7272DD;
     color: white;
     height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     overflow: visible;
 }
 
@@ -115,6 +118,12 @@ a{
 
 
 nav{
+    padding: 10px 20px;
+}
+
+.menu{
+    min-width: 100%;
+   
    text-align: left;
    text-decoration: none;
    font-size: 30px;
@@ -122,30 +131,42 @@ nav{
    display: flex;
 }
 
-
-
 .dropdown-menu {
+    
     display: none;
     position: absolute;
-
+    flex-direction: column;
     background-color: #7272DD;
     border-radius: 0px 0px 40px 0px;
-    padding: 8px 16px;
-    display: flex;
-    text-indent: 0;
+    padding: 8px 8px;
+    left: 50px;
+    top: 100%;
     font-size: 16px;
     color: white;
+    min-width: 150px;
+    white-space: nowrap;
     
 }
 
 .dropdown:hover .dropdown-menu {
     display: flex;
-    margin-left: 55px;
+    
+}
+
+.dropdown-menu a {
+    padding: 4px 0px;
+    margin: 0;
+    text-indent: 0;
 }
 
 .dropdown-menu a:hover{
     color: black;
     display: flex;
+    
 }
 
+.dropdown {
+    position: relative;
+    
+}
 
